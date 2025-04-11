@@ -1,0 +1,10 @@
+services:
+  app:
+    build: .
+    image: knapsack-problem-golang
+    ports:
+      - "3000:8080" # Web Server
+    volumes:
+      - ./:/app
+    environment:
+      PORT: "8080"
