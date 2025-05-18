@@ -1,5 +1,5 @@
 services:
-  app:
+  knapsack-api-golang:
     build: .
     image: knapsack-problem-golang
     ports:
